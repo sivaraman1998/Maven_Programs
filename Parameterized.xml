@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="username" value="sivaraman"></parameter>
+		<parameter name="password" value="12345678"></parameter>
+		<parameter name="username1" value="siva"></parameter>
+		<parameter name="password1" value="1234"></parameter>
+		<classes>
+			<class name="com.testng.Parameterized_Concept"></class> <!-- package name should present -->
+			<class name="com.testng.Parameterized2"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
